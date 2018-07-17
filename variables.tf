@@ -5,7 +5,7 @@ variable "create" {
 
 variable "name" {
   description = "Name for resources, defaults to \"vault-lb-aws\"."
-  default     = "vault-aws"
+  default     = "vault-lb-aws"
 }
 
 variable "vpc_id" {
